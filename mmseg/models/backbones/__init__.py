@@ -8,8 +8,20 @@ from .resnet import ResNet, ResNetV1c, ResNetV1d
 from .resnext import ResNeXt
 from .unet import UNet
 from .swin_transformer import SwinTransformer
+from .swin_transformer_v2 import SwinTransformerV2
 
 __all__ = [
-    'ResNet', 'ResNetV1c', 'ResNetV1d', 'ResNeXt', 'HRNet', 'FastSCNN',
-    'ResNeSt', 'MobileNetV2', 'UNet', 'CGNet', 'MobileNetV3', 'SwinTransformer'
+    "ResNet",
+    "ResNetV1c",
+    "ResNetV1d",
+    "ResNeXt",
+    "HRNet",
+    "FastSCNN",
+    "ResNeSt",
+    "MobileNetV2",
+    "UNet",
+    "CGNet",
+    "MobileNetV3",
+    "SwinTransformer",
+    "SwinTransformerV2",
 ]
